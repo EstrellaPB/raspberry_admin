@@ -1,0 +1,26 @@
+.page-link, .dropdown {
+    cursor: pointer;
+}
+
+.form-group .dropdown, .form-group .btn{
+    width: 100%;
+    text-align: justify;
+    position: relative;
+}
+
+.form-group .dropdown-menu.show {
+    width: 100%;
+}
+
+.form-group .btn::after {
+    text-align: right;
+    right: 5%;
+    position: absolute;
+    top: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-vertical.navbar-expand-md .navbar-brand-img {
+        max-height: 13.5rem;
+    }
+}
